@@ -76,6 +76,19 @@ Logic-Maze/
 ---
 
 ## 🎓 Project Info
-This project was built as part of the B.Tech CSE curriculum at ITM Skills University.  
+This project was built as part of the B.Tech CSE curriculum 
+at ITM Skills University.  
 The goal was to create an interactive EdTech tool that helps first year students  
 practice programming logic in a fun and engaging way.
+
+## Screenshots !
+<img width="1470" height="956" alt="Screenshot 2026-03-12 at 9 47 38 AM" src="https://github.com/user-attachments/assets/74873d33-7d37-4ec7-bc11-b5a49ec966b9" />
+
+<img width="1470" height="956" alt="Screenshot 2026-03-12 at 9 56 34 AM" src="https://github.com/user-attachments/assets/fd318780-610f-41e3-9fc3-51dad5bf608b" />
+
+<img width="1470" height="956" alt="Screenshot 2026-03-12 at 9 50 08 AM" src="https://github.com/user-attachments/assets/718c66ed-e3e7-461b-b6d1-5b964fd9ced8" />
+
+<img width="1470" height="956" alt="Screenshot 2026-03-12 at 9 50 24 AM" src="https://github.com/user-attachments/assets/171eb066-2b4e-466c-909b-6da3278e049a" />
+
+<img width="1470" height="956" alt="Screenshot 2026-03-12 at 9 54 23 AM" src="https://github.com/user-attachments/assets/61d31e48-91ce-4e10-b5c7-cf84a6081bfa" />
+
