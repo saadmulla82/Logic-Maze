@@ -1,0 +1,85 @@
+
+<html>
+
+<head
+  <title>Logic Maze</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Share+Tech+Mono&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <div class="blob b1"></div>
+  <div class="blob b2"></div>
+  <div id="loadpage">
+    <h1 class="logo">LOGIC<span>MAZE</span></h1>
+    <p class="dim">Solve puzzles. Escape the maze!</p>
+    <div class="barwrap">
+      <div class="bar" id="bar"></div>
+    </div>
+    <p class="dim" id="loadmsg">Loading...</p>
+  </div>
+  <div id="startpage" class="center" style="display:none;">
+    <div class="card">
+      <p class="tag">Saad Mulla's Project !</p>
+      <h1 class="logo">LOGIC<span>MAZE</span></h1>
+      <p class="dim">3 Rooms · 3 Puzzles each · Escape if you can!</p>
+      <button class="mainbtn" onclick="startGame()">▶ Enter Maze</button>
+      <p class="dim" id="savedscore"></p>
+    </div>
+  </div>
+  <div id="gamepage" style="display:none;">
+    <div class="hud">
+      <div class="hudbox"><span class="lbl">SCORE</span><span class="val" id="scoreval">0</span></div>
+      <div class="hudbox"><span class="lbl">ROOMS</span><span class="val" id="roomsdone">0/3</span></div>
+      <div class="hudbox"><span class="lbl">TIME</span><span class="val" id="timerval">--</span></div>
+    </div>
+    <p class="dim" style="text-align:center; margin-bottom:14px;">Click an unlocked room 👇</p>
+    <div class="mazegrid">
+      <div class="room" id="room0" onclick="openRoom(0)">
+        <span id="icon0">⬡</span>
+        <span>ROOM 1</span>
+      </div>
+      <div class="arrow">→</div>
+      <div class="room locked" id="room1">
+        <span id="icon1">🔒</span>
+        <span>ROOM 2</span>
+      </div>
+      <div class="arrow">→</div>
+      <div class="room locked" id="room2">
+        <span id="icon2">🔒</span>
+        <span>ROOM 3</span>
+      </div>
+    </div>
+  </div>
+  <div class="panel" id="panel">
+    <div class="panelbox">
+      <div class="paneltop">
+        <h3 class="glow" id="paneltitle">Room 1</h3>
+        <button class="closebtn" onclick="closePanel()">✕</button>
+      </div>
+      <div class="barwrap">
+        <div class="bar" id="timebar"></div>
+      </div>
+      <p id="qtxt" style="margin:14px 0 6px;"></p>
+      <pre class="codebox" id="codebox"></pre>
+      <div id="optgrid"></div>
+      <button class="hintbtn" id="hintbtn" onclick="showHint()">💡 Hint (-5 pts)</button>
+      <p class="hinttext" id="hinttext" style="display:none;"></p>
+      <p class="feedback" id="feedback"></p>
+    </div>
+  </div>
+  <div id="resultpage" class="center" style="display:none;">
+    <div class="card" style="text-align:center;">
+      <p style="font-size:52px;" id="bigicon">🏆</p>
+      <h2 class="logo" style="font-size:26px;">YOU ESCAPED!</h2>
+      <p class="dim">Score: <span class="glow" id="finalscore">0</span> / 90</p>
+      <p class="grade" id="grade"></p>
+      <button class="mainbtn" onclick="startGame()">🔄 Try Again</button>
+      <button class="outbtn" onclick="goHome()">🏠 Home</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
