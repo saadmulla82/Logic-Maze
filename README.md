@@ -1,17 +1,17 @@
 # Logic-Maze
-# 🧠 Logic Maze — Programming Logic Puzzle Game
+# Logic Maze — Programming Logic Puzzle Game
 
 A browser-based puzzle game where you solve coding questions to escape 3 rooms.  
 Built as a B.Tech CSE Semester II project using only HTML, CSS and JavaScript.
 
 ---
 
-## 🔗 Live Demo
-👉 [Play it here](https://saadmulla82.github.io/Logic-Maze/)
+## Live Demo
+ [Play it here](https://saadmulla82.github.io/Logic-Maze/)
 
 ---
 
-## 📌 About the Project
+##  About the Project
 **Project No.** 149  
 **Student:** Mohammed Saad Mulla  
 **Roll No.:** 150096725112  
@@ -20,7 +20,7 @@ Built as a B.Tech CSE Semester II project using only HTML, CSS and JavaScript.
 
 ---
 
-## 🎮 How to Play
+##  How to Play
 - Click **Enter Maze** to start
 - You have **3 Rooms** — each room has **3 coding questions**
 - Each question shows a real code snippet — predict the output
@@ -31,18 +31,18 @@ Built as a B.Tech CSE Semester II project using only HTML, CSS and JavaScript.
 
 ---
 
-## ✨ Features
-- 🔒 3 locked rooms that unlock progressively
-- ⏱️ 30 second countdown timer per question
-- 💡 Hint system with score penalty
-- 🏆 Final score screen with grade
-- 💾 Saves your last score using localStorage
-- 📱 Responsive — works on mobile too
-- 🎨 Cyberpunk neon design with animated blobs and glassmorphism
+##  Features
+-  3 locked rooms that unlock progressively
+-  30 second countdown timer per question
+-  Hint system with score penalty
+-  Final score screen with grade
+-  Saves your last score using localStorage
+-  Responsive — works on mobile too
+-  Cyberpunk neon design with animated blobs and glassmorphism
 
 ---
 
-## 🛠️ Built With
+##  Built With
 | Technology | Purpose |
 |---|---|
 | HTML5 | Page structure and layout |
@@ -55,7 +55,7 @@ Built as a B.Tech CSE Semester II project using only HTML, CSS and JavaScript.
 
 ---
 
-## 📁 File Structure
+##  File Structure
 ```
 Logic-Maze/
 ├── index.html   → All page structure and screens
@@ -65,7 +65,7 @@ Logic-Maze/
 
 ---
 
-## 📚 Topics Covered in Questions
+##  Topics Covered in Questions
 - `if / else` conditions
 - `for` loops
 - Arrays and indexing
@@ -75,7 +75,7 @@ Logic-Maze/
 
 ---
 
-## 🎓 Project Info
+##  Project Info
 This project was built as part of the B.Tech CSE curriculum 
 at ITM Skills University.  
 The goal was to create an interactive EdTech tool that helps first year students  
